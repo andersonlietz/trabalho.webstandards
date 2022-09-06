@@ -153,23 +153,11 @@ aside{
     padding:3px;
     margin-left:5%;
 }
-aside p {
-    color:#FFFFFF;
-}
-aside a {
-    font-size:27px;
-}
 aside img{
     width:95%;
     height:auto;
     margin:10px auto;
     border-radius:100%;
-}
-#timer{
-    color:red;
-    font-size:60px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
 }
 aside .post{
     border:none;
@@ -181,14 +169,15 @@ aside .post{
     border:1px solid #008000;
     padding:10px;
 }
-.post a{
+#blog .post a{
+    font-size:25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+aside .post strong{
 font-size:30px;
 font-family: Arial, Helvetica, sans-serif;
+color:#008000;
 
-}
-b {
-    color:#008000;
-    font-size:27px;
 }
 
 .btnlermais{
@@ -327,6 +316,7 @@ padding:20px;
         width:95%;
         padding:0;
         margin:auto;
+        margin-right:2%;
         float:center;
     }
     #bio img{
@@ -340,19 +330,26 @@ padding:20px;
         font-size: 20px;
         margin:10px;
     }
-	aside{
-        width:95%;
-        margin:auto;
+    #blog .post a {
+        margin:7px;
+    }
+    #blog .post{
+        padding:2px;
+        margin-top:30px;
         height:auto;
-        float:center;
+        min-height:100px;
+        border:0;
+    }
+	aside{
+        width:90%;
+        margin:auto;
+        margin-left:3%;
+        height:auto;
         padding:5px;
+        margin-top:10px;
         
        
     }
-	#timer{
-        font-size:60px;
-    }
-	
 	
 	
 } 
